@@ -9,7 +9,7 @@ import ssl
 import smtplib
 
 #Setting email variables:
-app_password = "xfahwarwhcyvkyzb"
+app_password = "*************"
 email_sender = 's.shaswathan@gmail.com'
 email_receiver = 's.shaswathan@gmail.com'
 
