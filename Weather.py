@@ -14,14 +14,10 @@ email_sender = 's.shaswathan@gmail.com'
 email_receiver = 's.shaswathan@gmail.com'
 
 em = EmailMessage()
-#------------------------------------
-#For headless mode:
-options = webdriver.ChromeOptions()
-#options.add_experimental_option('excludeSwitches', ['enable-logging'])
-#options.add_argument("--headless=new")
 
 #------------------------------------
 #Getting driver and website:
+options = webdriver.ChromeOptions()
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options = options)
 website = "https://www.accuweather.com/en/gb/feltwell/ip26-4/daily-weather-forecast/329746"
 
